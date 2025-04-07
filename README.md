@@ -1,12 +1,12 @@
-**Shopping Agent for Mobile Store**
+# Shopping Agent for Mobile Store
 =====================================
 
-**Overview**
+## Overview
 ------------
 
-This project is a shopping agent designed to assist users in purchasing mobile phones from a virtual store. The agent is built using the crewAI framework and utilizes a range of tools and technologies to provide a seamless and interactive shopping experience.
+This project is a CLI-based shopping agent designed to assist users in purchasing mobile phones from a virtual store. The agent is built using the crewAI framework and utilizes a range of tools and technologies to provide a seamless and interactive shopping experience.
 
-**Features**
+## Features
 ------------
 
 * **Product Information**: The agent can provide detailed information about various mobile phones, including their prices, quantities, and features.
@@ -14,9 +14,9 @@ This project is a shopping agent designed to assist users in purchasing mobile p
 * **Add to Cart**: Users can add mobile phones to their cart, and the agent will update the quantity and price accordingly.
 * **Remove from Cart**: Users can remove mobile phones from their cart, and the agent will update the quantity and price accordingly.
 * **Show Cart**: Users can view their cart contents, including the mobile phones they have added and their total cost.
-* **Chat Interface**: The agent uses a chat interface to interact with users, providing a natural and intuitive way to shop.
+* **Chat Interface**: The agent uses a CLI-based chat interface to interact with users, providing a natural and intuitive way to shop.
 
-**Technical Details**
+## Technical Details
 --------------------
 
 * **crewAI Framework**: The project uses the crewAI framework to build and manage the shopping agent.
@@ -24,7 +24,7 @@ This project is a shopping agent designed to assist users in purchasing mobile p
 * **UV**: The project uses UV for dependency management and package handling.
 * **Google API**: The project uses the Google API for text embedding and other natural language processing tasks.
 
-**Installation**
+## Installation
 ------------
 
 To install and run the project, follow these steps:
@@ -33,10 +33,10 @@ To install and run the project, follow these steps:
 2. Navigate to the project directory and install the dependencies by running `uv install`.
 3. Run the project by executing `python src/Shoping-agent/shoping_agent.py`.
 
-**Usage**
+## Usage
 -----
 
-To use the shopping agent, simply interact with it through the chat interface. You can ask the agent to:
+To use the shopping agent, simply interact with it through the CLI-based chat interface. You can ask the agent to:
 
 * Search for a specific mobile phone by name
 * Add a mobile phone to your cart
@@ -44,14 +44,18 @@ To use the shopping agent, simply interact with it through the chat interface. Y
 * Show your cart contents
 * Get more information about a specific mobile phone
 
+## Note
+----
 
-**License**
+This project is a CLI-based application, and all interactions with the agent will be through the command line.
+
+
+## License
 -------
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-**Acknowledgments**
+## Acknowledgments
 ---------------
 
-This project was built using the crewAI framework. We acknowledge the contributions of the crewAI team and the open-source community in making this project possible.
-
+This project was built using the crewAI framework and utilizes various open-source libraries and tools. We acknowledge the contributions of the crewAI team and the open-source community in making this project possible.
